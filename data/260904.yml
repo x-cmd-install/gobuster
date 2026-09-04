@@ -7,7 +7,7 @@ about:
   head: c77583f
   archived: false
   latestVersion: v3.8.2
-  collectedAt: 2026-09-04T19:25:58Z
+  collectedAt: 2026-09-04T21:09:01Z
 timeline:
   created: 2014-11-14
   lastCommit: 2026-01-13
@@ -81,6 +81,34 @@ total:
   openIssue: 13
   commit: 607
 ---
+path: /home/runner/.x-repo/github.com/OJ/gobuster
+collectedAt: 2026-09-04T21:09:02Z
+loc:
+  Go:
+    code: 9375
+    comments: 285
+    blanks: 808
+    files: 54
+  Yaml:
+    code: 63
+    comments: 0
+    blanks: 11
+    files: 1
+  Dockerfile:
+    code: 17
+    comments: 1
+    blanks: 6
+    files: 1
+  Markdown:
+    code: 0
+    comments: 255
+    blanks: 154
+    files: 1
+total:
+  code: 9497
+  comments: 565
+  blanks: 994
+  files: 57
 ---
 date: "2026-08-24"
 repo:
