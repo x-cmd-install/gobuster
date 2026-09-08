@@ -5,15 +5,15 @@ about:
   head: c77583f
   archived: false
   latestVersion: "v3.8.2"
-  collectedAt: 2026-09-08T02:27:50Z
+  collectedAt: 2026-09-08T05:02:57Z
 timeline:
   created: 2014-11-14
   lastCommit: 2026-01-13
   lastRelease: 2025-09-04
 popularity:
-  star: 14092
+  star: 14093
   watcher: 178
-  fork: 1613
+  fork: 1614
   release: 13
   contributor: 27
   pullRequest: 332
@@ -80,7 +80,7 @@ total:
   commit: 607
 ---
 path: /home/runner/.x-repo/github.com/OJ/gobuster
-collectedAt: 2026-09-08T02:27:51Z
+collectedAt: 2026-09-08T05:02:58Z
 loc:
   Go:
     code: 9375
