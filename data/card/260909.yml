@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.8.2"
   latestRelease: "v3.8.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:05:21Z
+  collectedAt: 2026-09-09T19:14:08Z
 timeline:
   created: 2014-11-14
   lastCommit: 2026-01-13
@@ -84,7 +84,7 @@ total:
   commit: 607
 ---
 path: /home/runner/.x-repo/github.com/OJ/gobuster
-collectedAt: 2026-09-09T05:05:22Z
+collectedAt: 2026-09-09T19:14:09Z
 loc:
   Go:
     code: 9375
