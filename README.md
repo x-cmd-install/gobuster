@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,106 · **Forks**: 1,614 · **Open issues**: 320 · **Contributors**: 27
+- **Stars**: 14,108 · **Forks**: 1,614 · **Open issues**: 320 · **Contributors**: 27
 
 ## Totals (cumulative)
 
@@ -104,4 +104,4 @@ Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:03:34Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:54:21Z._
