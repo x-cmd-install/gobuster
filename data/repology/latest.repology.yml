@@ -1,18 +1,47 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: gobuster
   binnames:
     - gobuster
   visiblename: gobuster
-  version: 2.0.1
-  origversion: 2.0.1-1
-  status: outdated
+  version: 3.8.2
+  origversion: 3.8.2-1
+  status: newest
   maintainers:
-    - mirar@chaosmail.org
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.5.0
+  origversion: 3.5.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.6.0
+  origversion: 3.6.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: kali_rolling
+  subrepo: main
   srcname: gobuster
   binnames:
     - gobuster
@@ -35,59 +64,6 @@
     - danix@danix.xyz
   categories:
     - network
-- repo: trisquel_10_0
-  subrepo: nabia/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 2.0.1
-  origversion: 2.0.1-1
-  status: outdated
-  maintainers:
-    - mirar@chaosmail.org
-  categories:
-    - universe/misc
-- repo: trisquel_11_0
-  subrepo: aramo/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 2.0.1
-  origversion: 2.0.1-1build2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 2.0.1
-  origversion: 2.0.1-1
-  status: outdated
-  maintainers:
-    - mirar@chaosmail.org
-  categories:
-    - universe/misc
-- repo: deepin_25
-  subrepo: community
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.6.0
-  origversion: 3.6.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: gobuster
@@ -220,6 +196,33 @@
   status: outdated
   maintainers:
     - mirar@chaosmail.org
+- repo: deepin_25
+  subrepo: community
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.6.0
+  origversion: 3.6.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 2.0.1
+  origversion: 2.0.1-1
+  status: outdated
+  maintainers:
+    - mirar@chaosmail.org
+  categories:
+    - misc
 - repo: epel_9
   srcname: gobuster
   binnames:
@@ -302,22 +305,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: gobuster
-  binnames:
-    - gobuster
-    - gobuster-debuginfo
-    - gobuster-debugsource
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2-2.fc42
-  status: newest
-  summary: Directory/File, DNS and VHost busting tool written in Go
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: gobuster
   binnames:
@@ -332,6 +319,22 @@
   summary: Directory/File, DNS and VHost busting tool written in Go
   licenses:
     - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: gobuster
+  binnames:
+    - gobuster
+    - gobuster-debuginfo
+    - gobuster-debugsource
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: 3.8.2-2.fc42
+  status: newest
+  summary: Directory/File, DNS and VHost busting tool written in Go
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
 - repo: fedora_43
@@ -382,17 +385,17 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
+- repo: trisquel_10_0
+  subrepo: nabia/main
   srcname: gobuster
   binnames:
     - gobuster
   visiblename: gobuster
   version: 2.0.1
-  origversion: 2.0.1-1build2
+  origversion: 2.0.1-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - mirar@chaosmail.org
   categories:
     - universe/misc
 - repo: freebsd
@@ -441,20 +444,6 @@
   origversion: null
   status: rolling
   summary: Directory/file & DNS busting tool written in Go
-- repo: kali_rolling
-  subrepo: main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2-1
-  status: newest
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
 - repo: macports
   srcname: www/gobuster
   binname: gobuster
@@ -612,7 +601,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gobuster
   binnames:
     - gobuster
@@ -626,7 +615,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gobuster
   binnames:
     - gobuster
@@ -715,34 +704,6 @@
     - andrade@debian.org
   categories:
     - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.5.0
-  origversion: 3.5.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.6.0
-  origversion: 3.6.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
 - repo: raspbian_testing
   subrepo: main
   srcname: gobuster
@@ -766,6 +727,45 @@
   status: newest
   licenses:
     - Apache-2.0
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 2.0.1
+  origversion: 2.0.1-1build2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 2.0.1
+  origversion: 2.0.1-1
+  status: outdated
+  maintainers:
+    - mirar@chaosmail.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 2.0.1
+  origversion: 2.0.1-1build2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
 - repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gobuster
