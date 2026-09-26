@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,158 · **Forks**: 1,617 · **Open issues**: 321 · **Contributors**: 27
+- **Stars**: 14,160 · **Forks**: 1,619 · **Open issues**: 321 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 193 · **Open PRs**: 10 · **Closed issues**: 307 · **Open issues**: 14 · **Commits**: 607
+- **Releases**: 13 · **Merged PRs**: 193 · **Open PRs**: 11 · **Closed issues**: 307 · **Open issues**: 14 · **Commits**: 607
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 1 | 2 | 0 | 1 | 0 |
-| last60d | 2026-07-27 | 0 | 4 | 3 | 1 | 1 | 0 |
-| 90d | 2026-06-27 | 0 | 6 | 3 | 1 | 1 | 0 |
-| last180d | 2026-03-29 | 0 | 12 | 5 | 2 | 1 | 0 |
-| 360d | 2025-09-30 | 0 | 28 | 9 | 11 | 2 | 6 |
-| last720d | 2024-10-05 | 4 | 64 | 10 | 39 | 2 | 117 |
+| 30d | 2026-08-27 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-07-28 | 0 | 4 | 4 | 1 | 1 | 0 |
+| 90d | 2026-06-28 | 0 | 6 | 4 | 1 | 1 | 0 |
+| last180d | 2026-03-30 | 0 | 12 | 6 | 2 | 1 | 0 |
+| 360d | 2025-10-01 | 0 | 28 | 10 | 11 | 2 | 6 |
+| last720d | 2024-10-06 | 4 | 64 | 11 | 39 | 2 | 117 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:20:26Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:18:52Z._
