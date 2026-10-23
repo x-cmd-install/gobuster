@@ -46,7 +46,7 @@ x install gobuster
 
 ## 流行度
 
-- **Star**: 14,235 · **Fork**: 1,625 · **开放 issue**: 321 · **贡献者**: 27
+- **Star**: 14,240 · **Fork**: 1,626 · **开放 issue**: 321 · **贡献者**: 27
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install gobuster
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 1 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 2 | 5 | 0 | 1 | 0 |
-| 90d | 2026-07-24 | 0 | 5 | 5 | 1 | 1 | 0 |
-| last180d | 2026-04-25 | 0 | 11 | 6 | 1 | 1 | 0 |
-| 360d | 2025-10-27 | 0 | 28 | 11 | 7 | 2 | 6 |
-| last720d | 2024-11-01 | 4 | 62 | 12 | 38 | 2 | 114 |
+| 30d | 2026-09-23 | 0 | 1 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 2 | 4 | 0 | 1 | 0 |
+| 90d | 2026-07-25 | 0 | 5 | 5 | 1 | 1 | 0 |
+| last180d | 2026-04-26 | 0 | 11 | 6 | 1 | 1 | 0 |
+| 360d | 2025-10-28 | 0 | 28 | 11 | 6 | 2 | 6 |
+| last720d | 2024-11-02 | 4 | 62 | 12 | 38 | 2 | 114 |
 
 ## Release 资产
 
@@ -77,6 +77,24 @@ x install gobuster
 | [gobuster_Windows_i386.zip](https://github.com/OJ/gobuster/releases/download/v3.8.2/gobuster_Windows_i386.zip) | 3.7 MiB | `native/win/x64` |
 | [gobuster_Windows_x86_64.zip](https://github.com/OJ/gobuster/releases/download/v3.8.2/gobuster_Windows_x86_64.zip) | 3.8 MiB | `native/win/x64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/gobuster) 上共有 **64** 个发行版报告此项目。**30** 个 ✅ 已是最新上游版本，**30** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.8.2` | ✅ latest |
+| Debian 14 | `3.8.2` | ✅ latest |
+| Debian 13 | `3.6.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.8.2` | ✅ latest |
+| Ubuntu 24.04 LTS | `3.6.0` | ⚠️ outdated |
+| Arch | `3.8.2` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `3.8.2` | ✅ latest |
+| Nix unstable | `3.8.2` | ✅ latest |
+| Void | `3.8.2` | ✅ latest |
+| Alpine edge | `3.8.2` | ✅ latest |
+
 ## 改进这些数据
 
 gobuster 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `gobuster` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -86,4 +104,4 @@ gobuster 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:04:57Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:03:30Z._
