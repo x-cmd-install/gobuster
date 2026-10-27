@@ -29,8 +29,8 @@ Overall score: **3.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 2/7 approved changesets -- score normalized to 2
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (2/10) — Found 2/7 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,246 · **Forks**: 1,630 · **Open issues**: 321 · **Contributors**: 27
+- **Stars**: 14,250 · **Forks**: 1,629 · **Open issues**: 321 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 194 · **Open PRs**: 13 · **Closed issues**: 307 · **Open issues**: 14 · **Commits**: 607
+- **Releases**: 13 · **Merged PRs**: 195 · **Open PRs**: 13 · **Closed issues**: 307 · **Open issues**: 14 · **Commits**: 607
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 1 | 2 | 0 | 0 | 0 |
-| last60d | 2026-08-27 | 0 | 1 | 5 | 0 | 1 | 0 |
-| 90d | 2026-07-28 | 0 | 5 | 6 | 1 | 1 | 0 |
-| last180d | 2026-04-29 | 0 | 10 | 7 | 1 | 1 | 0 |
-| 360d | 2025-10-31 | 0 | 28 | 12 | 5 | 2 | 4 |
-| last720d | 2024-11-05 | 4 | 62 | 13 | 38 | 2 | 114 |
+| 30d | 2026-09-27 | 0 | 2 | 2 | 0 | 0 | 0 |
+| last60d | 2026-08-28 | 0 | 2 | 5 | 0 | 1 | 0 |
+| 90d | 2026-07-29 | 0 | 6 | 6 | 1 | 1 | 0 |
+| last180d | 2026-04-30 | 0 | 11 | 7 | 1 | 1 | 0 |
+| 360d | 2025-11-01 | 0 | 29 | 12 | 5 | 2 | 4 |
+| last720d | 2024-11-06 | 4 | 63 | 13 | 37 | 2 | 114 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:59:49Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:29:24Z._
