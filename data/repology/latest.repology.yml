@@ -1,28 +1,3 @@
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: gobuster
-  binname: gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2-1
-  status: newest
-  summary: Directory/File, DNS and VHost busting tool written in Go
-  licenses:
-    - Apache-2.0
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.6.0
-  origversion: 3.6.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: gobuster
@@ -37,92 +12,18 @@
     - andrade@debian.org
   categories:
     - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
+- repo: slackbuilds
+  srcname: network/gobuster
+  visiblename: network/gobuster
   version: 3.8.2
-  origversion: 3.8.2-1
+  origversion: null
   status: newest
   maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
+    - danix@danix.xyz
   categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.6.0
-  origversion: 3.6.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.5.0
-  origversion: 3.5.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.6.0
-  origversion: 3.6.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2-1
-  status: newest
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2-1
-  status: newest
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
+    - network
+- repo: ubuntu_20_04
+  subrepo: focal/universe
   srcname: gobuster
   binnames:
     - gobuster
@@ -132,6 +33,8 @@
   status: outdated
   maintainers:
     - mirar@chaosmail.org
+  categories:
+    - universe/misc
 - repo: deepin_25
   subrepo: community
   srcname: gobuster
@@ -146,70 +49,19 @@
     - andrade@debian.org
   categories:
     - misc
-- repo: aur
-  srcname: gobuster-git
-  binname: gobuster-git
-  visiblename: gobuster-git
-  version: 3.5.0.r0.gc3fed5e
-  origversion: 3.5.0.r0.gc3fed5e-1
-  status: rolling
-  summary: A directory/file & DNS busting tool.
-  maintainers:
-    - m3thodic@aur
-  licenses:
-    - Apache
-- repo: nix_stable_24_05
+- repo: void_x86_64
+  subrepo: x86_64
   srcname: gobuster
+  binname: gobuster
   visiblename: gobuster
-  version: 3.6.0
-  origversion: null
-  status: outdated
-  summary: Tool used to brute-force URIs, DNS subdomains, Virtual Host names on target web servers
+  version: 3.8.2
+  origversion: 3.8.2_2
+  status: newest
+  summary: Directory, file and DNS busting tool
   maintainers:
-    - mail@fabian-affolter.ch
-    - xav.maso@gmail.com
+    - abenson+void@gmail.com
   licenses:
     - Apache-2.0
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 3.5.0
-  origversion: 3.5.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 2.0.1
-  origversion: 2.0.1-1
-  status: outdated
-  maintainers:
-    - mirar@chaosmail.org
-  categories:
-    - utils
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: gobuster
-  binnames:
-    - gobuster
-  visiblename: gobuster
-  version: 2.0.1
-  origversion: 2.0.1-1
-  status: outdated
-  maintainers:
-    - mirar@chaosmail.org
-  categories:
-    - misc
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: gobuster
@@ -263,6 +115,98 @@
   summary: Directory/File, DNS and VHost busting tool written in Go
   licenses:
     - Apache-2.0
+- repo: aur
+  srcname: gobuster-git
+  binname: gobuster-git
+  visiblename: gobuster-git
+  version: 3.5.0.r0.gc3fed5e
+  origversion: 3.5.0.r0.gc3fed5e-1
+  status: rolling
+  summary: A directory/file & DNS busting tool.
+  maintainers:
+    - m3thodic@aur
+  licenses:
+    - Apache
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 2.0.1
+  origversion: 2.0.1-1
+  status: outdated
+  maintainers:
+    - mirar@chaosmail.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.5.0
+  origversion: 3.5.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.6.0
+  origversion: 3.6.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: 3.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: 3.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 2.0.1
+  origversion: 2.0.1-1
+  status: outdated
+  maintainers:
+    - mirar@chaosmail.org
 - repo: epel_9
   srcname: gobuster
   binnames:
@@ -344,28 +288,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: gobuster
-  binname: gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2-1
-  status: newest
-  summary: Directory/File, DNS and VHost busting tool written in Go
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: gobuster
-  binname: gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2-1
-  status: newest
-  summary: Directory/File, DNS and VHost busting tool written in Go
-  licenses:
-    - Apache-2.0
 - repo: fedora_42
   subrepo: updates
   srcname: gobuster
@@ -447,6 +369,19 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 2.0.1
+  origversion: 2.0.1-1build2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
 - repo: freebsd
   srcname: misc/gobuster
   binname: gobuster
@@ -522,6 +457,51 @@
     - Apache-2
   categories:
     - www
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: gobuster
+  binname: gobuster
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: 3.8.2-1
+  status: newest
+  summary: Directory/File, DNS and VHost busting tool written in Go
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: gobuster
+  binname: gobuster
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: 3.8.2-1
+  status: newest
+  summary: Directory/File, DNS and VHost busting tool written in Go
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: gobuster
+  binname: gobuster
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: 3.8.2-1
+  status: newest
+  summary: Directory/File, DNS and VHost busting tool written in Go
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_05
+  srcname: gobuster
+  visiblename: gobuster
+  version: 3.6.0
+  origversion: null
+  status: outdated
+  summary: Tool used to brute-force URIs, DNS subdomains, Virtual Host names on target web servers
+  maintainers:
+    - mail@fabian-affolter.ch
+    - xav.maso@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_24_11
   srcname: gobuster
   visiblename: gobuster
@@ -619,7 +599,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gobuster
   binnames:
     - gobuster
@@ -633,7 +613,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gobuster
   binnames:
     - gobuster
@@ -663,7 +643,7 @@
   binname: gobuster
   visiblename: security/gobuster
   version: 3.6.0
-  origversion: 3.6.0nb20
+  origversion: 3.6.0nb21
   status: outdated
   summary: Service explorer
   maintainers:
@@ -695,27 +675,8 @@
     - mirar@chaosmail.org
   categories:
     - utils
-- repo: scoop
-  subrepo: main
-  binname: gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: slackbuilds
-  srcname: network/gobuster
-  visiblename: network/gobuster
-  version: 3.8.2
-  origversion: null
-  status: newest
-  maintainers:
-    - danix@danix.xyz
-  categories:
-    - network
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: gobuster
   binnames:
     - gobuster
@@ -726,20 +687,72 @@
   maintainers:
     - mirar@chaosmail.org
   categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: gobuster
   binnames:
     - gobuster
   visiblename: gobuster
-  version: 2.0.1
-  origversion: 2.0.1-1build2
+  version: 3.6.0
+  origversion: 3.6.0-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
   categories:
-    - universe/misc
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.5.0
+  origversion: 3.5.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.6.0
+  origversion: 3.6.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gobuster
+  binnames:
+    - gobuster
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: 3.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: gobuster
+  visiblename: gobuster
+  version: 3.8.2
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gobuster
@@ -838,16 +851,3 @@
     - andrade@debian.org
   categories:
     - universe/misc
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: gobuster
-  binname: gobuster
-  visiblename: gobuster
-  version: 3.8.2
-  origversion: 3.8.2_2
-  status: newest
-  summary: Directory, file and DNS busting tool
-  maintainers:
-    - abenson+void@gmail.com
-  licenses:
-    - Apache-2.0
