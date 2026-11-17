@@ -29,8 +29,8 @@ Overall score: **3.7 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Code-Review** (2/10) — Found 2/7 approved changesets -- score normalized to 2
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,318 · **Forks**: 1,634 · **Open issues**: 321 · **Contributors**: 27
+- **Stars**: 14,325 · **Forks**: 1,634 · **Open issues**: 321 · **Contributors**: 27
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 3 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 4 | 2 | 0 | 0 | 0 |
-| 90d | 2026-08-18 | 0 | 5 | 5 | 1 | 1 | 0 |
-| last180d | 2026-05-20 | 0 | 12 | 5 | 1 | 1 | 0 |
-| 360d | 2025-11-21 | 0 | 26 | 11 | 5 | 2 | 3 |
-| last720d | 2024-11-26 | 4 | 64 | 12 | 32 | 2 | 112 |
+| 30d | 2026-10-18 | 0 | 3 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-18 | 0 | 4 | 2 | 0 | 0 | 0 |
+| 90d | 2026-08-19 | 0 | 5 | 5 | 1 | 1 | 0 |
+| last180d | 2026-05-21 | 0 | 12 | 5 | 1 | 1 | 0 |
+| 360d | 2025-11-22 | 0 | 26 | 11 | 5 | 2 | 3 |
+| last720d | 2024-11-27 | 4 | 64 | 12 | 32 | 2 | 112 |
 
 ## Release assets
 
@@ -79,7 +79,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **65** distros on [repology.org](https://repology.org/project/gobuster). **31** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
+Reported by **66** distros on [repology.org](https://repology.org/project/gobuster). **32** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +104,4 @@ Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:15:05Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:31:39Z._
