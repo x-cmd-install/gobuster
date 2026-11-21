@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,338 · **Forks**: 1,633 · **Open issues**: 321 · **Contributors**: 27
+- **Stars**: 14,341 · **Forks**: 1,634 · **Open issues**: 321 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 197 · **Open PRs**: 12 · **Closed issues**: 307 · **Open issues**: 14 · **Commits**: 607
+- **Releases**: 13 · **Merged PRs**: 197 · **Open PRs**: 13 · **Closed issues**: 307 · **Open issues**: 14 · **Commits**: 607
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 3 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-21 | 0 | 4 | 2 | 0 | 0 | 0 |
-| 90d | 2026-08-22 | 0 | 5 | 5 | 0 | 1 | 0 |
-| last180d | 2026-05-24 | 0 | 12 | 5 | 1 | 1 | 0 |
-| 360d | 2025-11-25 | 0 | 26 | 11 | 5 | 2 | 3 |
-| last720d | 2024-11-30 | 4 | 64 | 12 | 32 | 2 | 112 |
+| 30d | 2026-10-22 | 0 | 3 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 0 | 4 | 2 | 0 | 0 | 0 |
+| 90d | 2026-08-23 | 0 | 5 | 6 | 0 | 1 | 0 |
+| last180d | 2026-05-25 | 0 | 12 | 6 | 1 | 1 | 0 |
+| 360d | 2025-11-26 | 0 | 26 | 12 | 5 | 2 | 3 |
+| last720d | 2024-12-01 | 4 | 64 | 13 | 32 | 2 | 112 |
 
 ## Release assets
 
@@ -79,7 +79,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **66** distros on [repology.org](https://repology.org/project/gobuster). **32** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
+Reported by **65** distros on [repology.org](https://repology.org/project/gobuster). **32** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,7 +89,7 @@ Reported by **66** distros on [repology.org](https://repology.org/project/gobust
 | Ubuntu 26.04 LTS | `3.8.2` | ✅ latest |
 | Ubuntu 24.04 LTS | `3.6.0` | ⚠️ outdated |
 | Arch | `3.8.2` | ✅ latest |
-| Homebrew | `3.8.2` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `3.8.2` | ✅ latest |
 | Nix unstable | `3.8.2` | ✅ latest |
 | Void | `3.8.2` | ✅ latest |
@@ -104,4 +104,4 @@ Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:44:55Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:36:10Z._
