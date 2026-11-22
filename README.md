@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,341 · **Forks**: 1,634 · **Open issues**: 321 · **Contributors**: 27
+- **Stars**: 14,343 · **Forks**: 1,634 · **Open issues**: 321 · **Contributors**: 27
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 3 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-22 | 0 | 4 | 2 | 0 | 0 | 0 |
-| 90d | 2026-08-23 | 0 | 5 | 6 | 0 | 1 | 0 |
-| last180d | 2026-05-25 | 0 | 12 | 6 | 1 | 1 | 0 |
-| 360d | 2025-11-26 | 0 | 26 | 12 | 5 | 2 | 3 |
-| last720d | 2024-12-01 | 4 | 64 | 13 | 32 | 2 | 112 |
+| 30d | 2026-10-23 | 0 | 3 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-23 | 0 | 4 | 2 | 0 | 0 | 0 |
+| 90d | 2026-08-24 | 0 | 5 | 5 | 0 | 1 | 0 |
+| last180d | 2026-05-26 | 0 | 12 | 6 | 1 | 1 | 0 |
+| 360d | 2025-11-27 | 0 | 26 | 12 | 5 | 2 | 2 |
+| last720d | 2024-12-02 | 4 | 64 | 13 | 32 | 2 | 112 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:36:10Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:07:00Z._
