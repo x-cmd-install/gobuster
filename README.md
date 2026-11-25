@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,350 · **Forks**: 1,634 · **Open issues**: 321 · **Contributors**: 27
+- **Stars**: 14,353 · **Forks**: 1,634 · **Open issues**: 321 · **Contributors**: 27
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 2 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 4 | 2 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 5 | 5 | 0 | 1 | 0 |
-| last180d | 2026-05-28 | 0 | 12 | 6 | 1 | 1 | 0 |
-| 360d | 2025-11-29 | 0 | 26 | 12 | 5 | 2 | 2 |
-| last720d | 2024-12-04 | 4 | 64 | 13 | 32 | 2 | 112 |
+| 30d | 2026-10-26 | 0 | 1 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 4 | 2 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 4 | 5 | 0 | 1 | 0 |
+| last180d | 2026-05-29 | 0 | 12 | 6 | 1 | 1 | 0 |
+| 360d | 2025-11-30 | 0 | 26 | 12 | 5 | 1 | 2 |
+| last720d | 2024-12-05 | 4 | 64 | 13 | 32 | 2 | 112 |
 
 ## Release assets
 
@@ -77,24 +77,6 @@ Lowest-scoring checks:
 | [gobuster_Windows_i386.zip](https://github.com/OJ/gobuster/releases/download/v3.8.2/gobuster_Windows_i386.zip) | 3.7 MiB | `native/win/x64` |
 | [gobuster_Windows_x86_64.zip](https://github.com/OJ/gobuster/releases/download/v3.8.2/gobuster_Windows_x86_64.zip) | 3.8 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **65** distros on [repology.org](https://repology.org/project/gobuster). **32** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.8.2` | ✅ latest |
-| Debian 14 | `3.8.2` | ✅ latest |
-| Debian 13 | `3.6.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.8.2` | ✅ latest |
-| Ubuntu 24.04 LTS | `3.6.0` | ⚠️ outdated |
-| Arch | `3.8.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `3.8.2` | ✅ latest |
-| Nix unstable | `3.8.2` | ✅ latest |
-| Void | `3.8.2` | ✅ latest |
-| Alpine edge | `3.8.2` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gobuster` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -104,4 +86,4 @@ Install metadata for gobuster lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:44:12Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:04:38Z._
